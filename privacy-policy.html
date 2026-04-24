@@ -1,1 +1,200 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muslim Ai — Privacy Policy</title>
+  <style>
+    :root {
+      --brand: #064E3B;
+      --brand-light: #10B981;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --bg: #f9fafb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, var(--brand), var(--brand-light));
+      color: white;
+      padding: 48px 24px 32px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { margin: 8px 0 0; opacity: 0.9; font-size: 0.95rem; }
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 32px 24px 96px;
+      background: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    }
+    h2 {
+      color: var(--brand);
+      margin-top: 32px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--brand-light);
+      font-size: 1.35rem;
+    }
+    h3 { margin-top: 20px; font-size: 1.05rem; color: #111827; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    .lang-toggle { display: flex; gap: 8px; justify-content: center; margin-top: 20px; }
+    .lang-toggle button {
+      background: rgba(255,255,255,0.2); color: white; border: 1px solid white;
+      padding: 6px 18px; border-radius: 20px; cursor: pointer; font-weight: 600;
+    }
+    .lang-toggle button.active { background: white; color: var(--brand); }
+    .ar { display: none; direction: rtl; text-align: right; }
+    .en { display: block; }
+    body[data-lang="ar"] .ar { display: block; }
+    body[data-lang="ar"] .en { display: none; }
+    footer {
+      text-align: center; padding: 24px; font-size: 0.85rem;
+      background: #111827; color: #9ca3af;
+    }
+    footer a { color: var(--brand-light); text-decoration: none; }
+    .updated { color: rgba(255,255,255,0.9); font-size: 0.9rem; }
+  </style>
+</head>
+<body data-lang="en">
+  <header>
+    <h1>Muslim Ai</h1>
+    <p class="updated">Privacy Policy · Last updated: April 24, 2026</p>
+    <div class="lang-toggle">
+      <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+      <button id="btn-ar" onclick="setLang('ar')">العربية</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="en">
+      <p>This Privacy Policy describes how <strong>Muslim Ai</strong> ("we", "us", "the app") handles information when you use our mobile application on Android and iOS. By using the app, you agree to the practices described below.</p>
+
+      <h2>1. Information We Collect</h2>
+
+      <h3>1.1 Location</h3>
+      <ul>
+        <li>We request access to your device's location (GPS) to calculate accurate prayer times and determine Qibla direction.</li>
+        <li>Your location is used <strong>only on your device</strong> to fetch daily prayer timings from a public Islamic data provider.</li>
+        <li>We do <strong>not store, sell, or share</strong> your GPS coordinates with any third party.</li>
+      </ul>
+
+      <h3>1.2 Notification Preferences</h3>
+      <ul>
+        <li>If you allow notifications, the app schedules local reminders for prayer times and daily du'as directly on your device.</li>
+        <li>No notification content or schedule is sent to our servers.</li>
+      </ul>
+
+      <h3>1.3 Optional Account (Email)</h3>
+      <ul>
+        <li>The app offers an optional sign-in to sync bookmarks and tasbih counts across devices.</li>
+        <li>If you sign up, we store only your email address and a securely hashed password. We never store your password in readable form.</li>
+      </ul>
+
+      <h3>1.4 Advertising (Google AdMob)</h3>
+      <p>The app shows ads provided by <strong>Google AdMob</strong>. AdMob may collect device identifiers (e.g. Advertising ID) and approximate location for ad personalization. You can reset or opt out of personalized ads at any time from your device's settings.<br />See Google's AdMob privacy policy: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></p>
+
+      <h2>2. Third-Party Services</h2>
+      <ul>
+        <li><strong>Aladhan API</strong> — fetches prayer times from your approximate coordinates.</li>
+        <li><strong>Al-Quran Cloud API</strong> — serves the Qur'an text &amp; translations.</li>
+        <li><strong>Google AdMob</strong> — ad delivery.</li>
+      </ul>
+
+      <h2>3. Data Security</h2>
+      <p>We use secure HTTPS connections for all network requests. Passwords are hashed using industry-standard algorithms (bcrypt). We follow reasonable measures to protect your information but cannot guarantee absolute security over the internet.</p>
+
+      <h2>4. Children's Privacy</h2>
+      <p>The app is rated for ages 3+ and does not knowingly collect personal information from children under 13. If you believe a child has provided us personal information, please contact us and we will delete it.</p>
+
+      <h2>5. Your Rights</h2>
+      <ul>
+        <li>Disable location access at any time in your device settings — prayer times will fall back to a default city.</li>
+        <li>Disable notifications at any time from the app Settings screen or device settings.</li>
+        <li>Request account deletion by emailing us (see contact below).</li>
+      </ul>
+
+      <h2>6. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. The "Last updated" date at the top of this page will reflect the most recent revision.</p>
+
+      <h2>7. Contact</h2>
+      <p>For questions or requests about this policy:<br />📧 <a href="mailto:mellouligroup@gmail.com">mellouligroup@gmail.com</a></p>
+    </section>
+
+    <section class="ar">
+      <p>توضّح سياسة الخصوصية هذه كيف يتعامل تطبيق <strong>Muslim Ai</strong> ("نحن" أو "التطبيق") مع المعلومات عند استخدامك للتطبيق على أجهزة Android و iOS. باستخدامك للتطبيق، فإنك توافق على الممارسات الموضحة أدناه.</p>
+
+      <h2>١. المعلومات التي نجمعها</h2>
+
+      <h3>١.١ الموقع</h3>
+      <ul>
+        <li>نطلب الوصول إلى موقع جهازك (GPS) لحساب أوقات الصلاة بدقة وتحديد اتجاه القبلة.</li>
+        <li>يُستخدم موقعك <strong>على جهازك فقط</strong> لجلب مواقيت الصلاة من مصدر إسلامي عام.</li>
+        <li>نحن <strong>لا نخزّن ولا نبيع ولا نشارك</strong> إحداثياتك مع أي طرف ثالث.</li>
+      </ul>
+
+      <h3>١.٢ تفضيلات الإشعارات</h3>
+      <ul>
+        <li>إذا سمحت بالإشعارات، يقوم التطبيق بجدولة تذكيرات محلية لأوقات الصلاة والأدعية اليومية مباشرة على جهازك.</li>
+        <li>لا يتم إرسال أي محتوى أو جدول إشعارات إلى خوادمنا.</li>
+      </ul>
+
+      <h3>١.٣ حساب اختياري (بريد إلكتروني)</h3>
+      <ul>
+        <li>يُتيح التطبيق تسجيل دخول اختياري لمزامنة المرجعيات وعدّاد التسبيح بين الأجهزة.</li>
+        <li>عند التسجيل، نحفظ فقط بريدك الإلكتروني وكلمة مرور مشفّرة بأمان (hashed). لا نحفظ كلمة المرور بصيغة قابلة للقراءة أبداً.</li>
+      </ul>
+
+      <h3>١.٤ الإعلانات (Google AdMob)</h3>
+      <p>يعرض التطبيق إعلانات من <strong>Google AdMob</strong>. قد يجمع AdMob معرّفات الجهاز (مثل Advertising ID) والموقع التقريبي لتخصيص الإعلانات. يمكنك إعادة تعيين أو إلغاء تخصيص الإعلانات في أي وقت من إعدادات جهازك.<br />سياسة خصوصية AdMob: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></p>
+
+      <h2>٢. خدمات الأطراف الثالثة</h2>
+      <ul>
+        <li><strong>Aladhan API</strong> — يجلب مواقيت الصلاة من إحداثياتك التقريبية.</li>
+        <li><strong>Al-Quran Cloud API</strong> — يقدّم نص القرآن والترجمات.</li>
+        <li><strong>Google AdMob</strong> — توصيل الإعلانات.</li>
+      </ul>
+
+      <h2>٣. أمان البيانات</h2>
+      <p>نستخدم اتصالات HTTPS آمنة لجميع الطلبات. يتم تشفير كلمات المرور باستخدام خوارزميات معيارية (bcrypt). نتبع تدابير معقولة لحماية معلوماتك لكن لا يمكن ضمان الأمان المطلق على الإنترنت.</p>
+
+      <h2>٤. خصوصية الأطفال</h2>
+      <p>التطبيق مُصنّف لعمر ٣+ ولا يجمع معلومات شخصية عن قصد من الأطفال دون الـ ١٣. إذا كنت تعتقد أن طفلاً قدّم لنا معلومات شخصية، يرجى التواصل معنا وسنحذفها.</p>
+
+      <h2>٥. حقوقك</h2>
+      <ul>
+        <li>يمكنك تعطيل الموقع في أي وقت من إعدادات جهازك — وستُحسب المواقيت بمدينة افتراضية.</li>
+        <li>يمكنك تعطيل الإشعارات من شاشة الإعدادات داخل التطبيق أو من إعدادات الجهاز.</li>
+        <li>يمكنك طلب حذف حسابك عبر مراسلتنا على البريد المذكور أدناه.</li>
+      </ul>
+
+      <h2>٦. تحديثات السياسة</h2>
+      <p>قد نُحدّث سياسة الخصوصية من وقت لآخر. سيعكس تاريخ "آخر تحديث" أعلى الصفحة أحدث مراجعة.</p>
+
+      <h2>٧. التواصل</h2>
+      <p>للاستفسارات أو الطلبات المتعلقة بهذه السياسة:<br />📧 <a href="mailto:mellouligroup@gmail.com">mellouligroup@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Muslim Ai — All rights reserved.
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      document.body.setAttribute('data-lang', lang);
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-ar').classList.toggle('active', lang === 'ar');
+      document.documentElement.lang = lang;
+    }
+  </script>
+</body>
+</html>
